@@ -10,7 +10,7 @@ const testimoniosIndividuales = [
     role: "Cliente",
     content:
       "Las terapias en la Cabina AQ han transformado mi vida. Mi nivel de estrés ha disminuido considerablemente y duermo mucho mejor.",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/Maria-Gonzales-Testimonio.webp?height=100&width=100",
     rating: 5,
     video: false,
   },
@@ -20,9 +20,9 @@ const testimoniosIndividuales = [
     role: "Deportista",
     content:
       "Después de mis entrenamientos, la terapia Regenerativa me ayuda a recuperarme mucho más rápido. ¡Es increíble la diferencia!",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/Carlos-Rodriguez-Deportista-Testimonio.webp?height=100&width=100",
     rating: 5,
-    video: true,
+    video: false,
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const testimoniosIndividuales = [
     role: "Profesora",
     content:
       "La terapia ZEN me ha ayudado a manejar el estrés del trabajo. Ahora puedo concentrarme mejor y tengo más paciencia con mis alumnos.",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/Ana-Martinez-Testimonio.webp?height=100&width=100",
     rating: 5,
     video: false,
   },
@@ -40,7 +40,7 @@ const testimoniosIndividuales = [
     role: "Ejecutivo",
     content:
       "Uso la pulsera cuántica todos los días y he notado una gran diferencia en mis niveles de energía. La recomiendo ampliamente.",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "/Roberto-Sanchez-Testimonio.webp?height=100&width=100",
     rating: 4,
     video: false,
   },
@@ -58,7 +58,7 @@ const testimoniosEmpresas = [
   },
   {
     id: 2,
-    company: "Universidad Nacional",
+    company: "Universidad Autonoma de Tamaulipas",
     representative: "Facultad de Psicología",
     content:
       "Nuestra colaboración con el Centro KRYON ha sido muy valiosa para nuestra investigación sobre el impacto de la tecnología cuántica en el bienestar estudiantil. Los resultados han sido muy prometedores.",
@@ -205,7 +205,7 @@ export default function TestimoniosPage() {
         </div>
       </section>
 
-      {/* Embajador Cuántico */}
+      {/* Embajador Cuántico 
       <section className="py-20 bg-[#053c6d] text-white w-full">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
@@ -220,6 +220,7 @@ export default function TestimoniosPage() {
           </div>
         </div>
       </section>
+      */}
     </main>
   )
 }

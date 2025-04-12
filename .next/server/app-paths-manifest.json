@@ -1,22 +1,8 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/page": "app/page.js",
-  "/contacto/page": "app/contacto/page.js",
-  "/productos/estructurador/page": "app/productos/estructurador/page.js",
-  "/empresas/page": "app/empresas/page.js",
-  "/productos/page": "app/productos/page.js",
-  "/productos/gel/page": "app/productos/gel/page.js",
-  "/nosotros/page": "app/nosotros/page.js",
-  "/productos/pulsera/page": "app/productos/pulsera/page.js",
-  "/productos/stickers/page": "app/productos/stickers/page.js",
-  "/productos/personalizado/page": "app/productos/personalizado/page.js",
-  "/terapias/page": "app/terapias/page.js",
-  "/terapias/armonia/page": "app/terapias/armonia/page.js",
-  "/terapias/reconexion/page": "app/terapias/reconexion/page.js",
-  "/terapias/sueño/page": "app/terapias/sueño/page.js",
-  "/terapias/regenerativa/page": "app/terapias/regenerativa/page.js",
   "/testimonios/page": "app/testimonios/page.js",
+  "/page": "app/page.js",
   "/terapias/zen/page": "app/terapias/zen/page.js",
-  "/tienda/page": "app/tienda/page.js"
+  "/nosotros/page": "app/nosotros/page.js",
+  "/contacto/page": "app/contacto/page.js",
+  "/empresas/page": "app/empresas/page.js"
 }

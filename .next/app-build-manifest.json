@@ -1,203 +1,65 @@
 {
   "pages": {
-    "/_not-found/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/app/_not-found/page-d2c93c862158d74e.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/css/4962237b28493cef.css",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/838-3437f2e931bae296.js",
-      "static/chunks/321-453e9df5a76d1022.js",
-      "static/chunks/349-e37cca06be34f72e.js",
-      "static/chunks/app/layout-060e31ed549d7034.js"
-    ],
-    "/blog/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/blog/page-0ff2accce7e3cef5.js"
-    ],
-    "/blog/loading": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/app/blog/loading-2f3df2d2336b1a57.js"
-    ],
-    "/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/838-3437f2e931bae296.js",
-      "static/chunks/778-6fe889662f5d7c45.js",
-      "static/chunks/371-c62d3fca018e0254.js",
-      "static/chunks/app/page-0714d5807fb01bde.js"
-    ],
-    "/contacto/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/838-3437f2e931bae296.js",
-      "static/chunks/778-6fe889662f5d7c45.js",
-      "static/chunks/app/contacto/page-cf9eb8fa751d924e.js"
-    ],
-    "/productos/estructurador/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/productos/estructurador/page-c4f42e695c7c85e5.js"
-    ],
-    "/empresas/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/empresas/page-9cfc34a8154d8b22.js"
-    ],
-    "/productos/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/productos/page-5599406fba738045.js"
-    ],
-    "/productos/gel/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/productos/gel/page-8a44843ac86ad222.js"
-    ],
-    "/nosotros/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/app/nosotros/page-a2a4fec1427bf268.js"
-    ],
-    "/productos/pulsera/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/productos/pulsera/page-c9f5951035e969c4.js"
-    ],
-    "/productos/stickers/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/productos/stickers/page-3da8598384e8bdac.js"
-    ],
-    "/productos/personalizado/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/productos/personalizado/page-553acd450d888528.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/terapias/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/terapias/page-b8240a1962ccaef5.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/terapias/page.js"
     ],
-    "/terapias/armonia/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/terapias/armonia/page-495fea6ca5bce923.js"
+    "/productos/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/productos/page.js"
     ],
-    "/terapias/reconexion/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/terapias/reconexion/page-86fbafec260f5c69.js"
+    "/productos/pulsera-energetica/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/productos/pulsera-energetica/page.js"
     ],
-    "/terapias/sueño/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/terapias/sueño/page-f7d9dca3f556f7a1.js"
-    ],
-    "/terapias/regenerativa/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/terapias/regenerativa/page-fefbf77f4a0dce15.js"
+    "/empresas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/empresas/page.js"
     ],
     "/testimonios/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/app/testimonios/page-2ef29f15030d0273.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/testimonios/page.js"
+    ],
+    "/contacto/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/contacto/page.js"
+    ],
+    "/nosotros/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/nosotros/page.js"
+    ],
+    "/productos/gel/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/productos/gel/page.js"
     ],
     "/terapias/zen/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/881-1a467d5afc66330f.js",
-      "static/chunks/app/terapias/zen/page-30004ddf47cd591c.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/terapias/zen/page.js"
     ],
-    "/tienda/page": [
-      "static/chunks/webpack-a90bf733c81a53de.js",
-      "static/chunks/b0ed1f52-be6e1e5f0a4d2a15.js",
-      "static/chunks/298-c3bb11c4d52102ae.js",
-      "static/chunks/main-app-07919c7859ef841c.js",
-      "static/chunks/378-90d29d4718693a46.js",
-      "static/chunks/838-3437f2e931bae296.js",
-      "static/chunks/321-453e9df5a76d1022.js",
-      "static/chunks/app/tienda/page-83df89459f26c4a0.js"
+    "/terapias/regenerativa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/terapias/regenerativa/page.js"
     ]
   }
 }

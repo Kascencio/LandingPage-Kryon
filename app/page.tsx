@@ -35,7 +35,7 @@ export default function Home() {
       location: "Villahermosa",
       content:
         "Salí de la cabina con una paz que no sentía desde hace años. Es increíble cómo en tan poco tiempo puede cambiar tu estado de ánimo completamente.",
-      avatar: "/placeholder.svg?height=100&width=100",
+      avatar: "/Ana-Testimonio.webp?height=100&width=100",
       rating: 5,
     },
     {
@@ -44,7 +44,7 @@ export default function Home() {
       location: "Ciudad de México",
       content:
         "Después de mis entrenamientos, la terapia Regenerativa me ayuda a recuperarme mucho más rápido. ¡Es increíble la diferencia!",
-      avatar: "/placeholder.svg?height=100&width=100",
+      avatar: "/Carlos-Rodriguez-Deportista-Testimonio.webp?height=100&width=100",
       rating: 5,
     },
     {
@@ -53,7 +53,7 @@ export default function Home() {
       location: "Monterrey",
       content:
         "Implementamos las cabinas AQ en nuestra empresa y hemos visto una mejora notable en el bienestar y productividad de nuestros empleados.",
-      avatar: "/placeholder.svg?height=100&width=100",
+      avatar: "/Laura-Martinez-Testimonio.webp?height=100&width=100",
       rating: 5,
     },
   ];
@@ -175,13 +175,7 @@ export default function Home() {
               >
                 <a href="/productos">Conoce nuestros productos</a>
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-black text-black hover:bg-white/10"
-              >
-                Haz tu testimonio
-              </Button>
+              
             </motion.div>
           </motion.div>
           <motion.div

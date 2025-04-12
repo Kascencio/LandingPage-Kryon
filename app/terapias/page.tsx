@@ -8,7 +8,7 @@ const terapias = [
     id: "zen",
     title: "ZEN – Estrés",
     description: "Reduce el estrés y la ansiedad a través de la armonización de tu campo energético.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Terapia-Zen.webp?height=300&width=500",
     link: "/terapias/zen",
   },
   {
@@ -64,12 +64,12 @@ export default function TerapiasPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {terapias.map((terapia) => (
               <Card key={terapia.id} className="overflow-hidden transition-all duration-300 hover:shadow-lg">
-                <div className="h-48 overflow-hidden">
+                <div className="h-52 overflow-hidden">
                   <Image
                     src={terapia.image || "/placeholder.svg"}
                     alt={terapia.title}
                     width={500}
-                    height={300}
+                    height={700}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                   />
                 </div>

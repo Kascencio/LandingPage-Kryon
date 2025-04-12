@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
+import { ShoppingCart } from "lucide-react"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Link from "next/link"
 
@@ -32,11 +33,11 @@ const productos = [
     link_compra: "https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20adquirir%20los%20Stickers%20Cu%C3%A1nticos.",
   },
   {
-    id: "botella",
+    id: "Termo",
     title: "Termo Estructurador de Energia Cuantica",
     description: "Revitalización estructural de agua para una hidratación óptima.",
     price: "$1,500 MXN",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Estructurador-Cuantico.webp?height=300&width=500",
     link: "/productos/estructurador",
     link_compra: "https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20adquirir%20el%20Termo%20Estructurador%20de%20Energia%20Cuantica.",
   },
@@ -89,14 +90,22 @@ export default function ProductosPage() {
                 <CardContent>
                   <p className="text-lg font-bold text-[#053c6d]">{producto.price}</p>
                 </CardContent>
-                <CardFooter>
-                  <Button className="w-23 mr-2 bg-[#054891] hover:bg-[#053c6d]">
-                    <Link href={producto.link_compra} target="_blank">Comprar en WhatsApp </Link>
+                <CardFooter className="flex flex-col gap-2">
+                    <Button className="w-full bg-[#39a6cf] hover:bg-[#1f749c] flex items-center gap-2">
+                      <ShoppingCart className="h-4 w-4" />
+                      <Link href={producto.link_compra}>
+                      <span>Comprar</span>
+                      </Link>
                     </Button>
-                  <Button className="w-20 bg-[#054891] hover:bg-[#053c6d]">
-                    <Link href={producto.link}>Ver más </Link>
-                    </Button>
-                </CardFooter>
+                    <Link href={producto.link} className="w-full">
+                      <Button
+                        variant="outline"
+                        className="w-full border-[#1f749c] text-[#1f749c] dark:border-[#39a6cf] dark:text-[#39a6cf]"
+                      >
+                        Ver más información
+                      </Button>
+                    </Link>
+                  </CardFooter>
               </Card>
             ))}
           </div>

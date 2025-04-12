@@ -47,7 +47,7 @@ export default function TerapiaZen() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/Cabina-Cuantica-byaq.webp?height=600&width=800"
+                src="/Terapia-Zen.webp?height=600&width=800"
                 style={{ width: "100%", height: "700px", aspectRatio: "16/9" }}
                 alt="Terapia ZEN en acción"
                 width={800}
@@ -213,14 +213,10 @@ export default function TerapiaZen() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-[#39a6cf] hover:bg-[#1f749c]">
+                <Link href="https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20agendar%20una%20cita."
+                  target="_blank">
                 Agendar sesión
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-[#1f749c] text-[#1f749c]"
-              >
-                Comprar sesión
+                </Link>
               </Button>
             </div>
           </div>
