@@ -1,208 +1,231 @@
-import Link from "next/link";
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
-import { Check } from "lucide-react";
-import { useTheme } from "next-themes";
-import { CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { CardFooter } from "@/components/ui/card";
+import Image from "next/image"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import { ArrowLeft, Check } from "lucide-react"
 
-const productos = [
-    {
-      id: "pulsera",
-      title: "Pulsera Cuántica",
-      description: "Alineación energética continua para tu día a día.",
-      price: "$500 MXN",
-      image: "/Pulsera-Cuantica.webp?height=300&width=500",
-      link: "/productos/pulsera",
-      link_compra: "https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20adquirir%20una%20Pulsera%20Cu%C3%A1ntica.",
-    },
-    {
-      id: "gel",
-      title: "Gel Cuántico",
-      description: "Activación bioenergética localizada para zonas específicas.",
-      price: "$500 MXN",
-      image: "/Gel-Cuantico.webp?height=300&width=500",
-      link: "/productos/gel",
-      link_compra: "https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20adquirir%20el%20Gel%20Cu%C3%A1ntico.",
-    },
-    {
-      id: "stickers",
-      title: "Stickers Cuánticos",
-      description: "Tecnología para armonizar las frecuencias electromagneticas.",
-      price: "$100 MXN cada uno",
-      image: "/placeholder.svg?height=300&width=500",
-      link: "/productos/stickers",
-      link_compra: "https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20adquirir%20los%20Stickers%20Cu%C3%A1nticos.",
-    },
-  ]
-
-export default function ProductoEstructurador() {
+export default function EstructuradorCuanticoPage() {
   return (
     <main className="flex min-h-screen flex-col items-center">
       {/* Hero Section */}
       <section className="w-full py-20 bg-gradient-to-r from-[#053c6d] to-[#1f749c] text-white">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Estructurador de Agua Cuántico
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6">Estructurador Cuántico de Agua "AQ" WATER</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Reduce el estrés y la ansiedad a través de la armonización de tu
-            campo energético.
+            Transforma tu agua común en agua estructurada con propiedades energéticas superiores
           </p>
         </div>
       </section>
 
-      {/* Descripción Detallada */}
-      <section className="py-20 bg-white w-full">
+      {/* Product Overview */}
+      <section className="py-20 bg-white dark:bg-gray-900 w-full">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 text-[#053c6d]">
-              ¿Qué es la Terapia ZEN?
-              </h2>
-              <p className="text-lg mb-4">
-                La Terapia ZEN utiliza tecnología cuántica avanzada para
-                armonizar tu campo energético, reduciendo significativamente los
-                niveles de estrés y ansiedad que experimentas en tu día a día.
-              </p>
-              <p className="text-lg mb-4">
-                A través de la Cabina Cuántica AQ, se emiten frecuencias
-                específicas que interactúan con tu sistema nervioso, promoviendo
-                un estado de calma y equilibrio similar al que se alcanza
-                después de una profunda meditación.
-              </p>
-              <p className="text-lg">
-                Esta terapia es ideal para personas con altos niveles de estrés
-                laboral, ansiedad crónica o quienes buscan mejorar su calidad de
-                vida en un mundo acelerado.
-              </p>
-            </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <Image
-                src="/Cabina-Cuantica-byaq.webp?height=600&width=800"
-                style={{ width: "100%", height: "700px", aspectRatio: "16/9" }}
-                alt="Terapia ZEN en acción"
-                width={800}
-                height={600}
-                className="w-full h-full object-cover"
+                src="/Estructurador-Cuantico.webp?height=600&width=800"
+                alt="Estructurador Cuántico de Agua AQ WATER"
+                width={600}
+                height={400}
+                className="w-100 h-full object-cover"
               />
             </div>
+            <div>
+              <Link href="/productos" className="flex items-center text-[#1f749c] dark:text-[#39a6cf] mb-4">
+                <ArrowLeft className="h-4 w-4 mr-2" />
+                <span>Volver a productos</span>
+              </Link>
+              <h2 className="text-3xl font-bold mb-6 text-[#053c6d] dark:text-[#39a6cf]">
+                ¿Qué es el Estructurador Cuántico de Agua?
+              </h2>
+              <p className="text-lg mb-6 dark:text-gray-300">
+                Es un dispositivo que expone el agua a frecuencias cuánticas que armonizan su estructura, elevan su
+                energía e impactan positivamente el bienestar físico y mental de quien la consume.
+              </p>
+              <div className="flex items-center mb-6">
+                <span className="text-2xl font-bold text-[#053c6d] dark:text-white mr-4">$1,500 MXN</span>
+                <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">Comprar con PayPal</Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Especificaciones Técnicas */}
+      <section className="py-20 bg-gray-50 dark:bg-gray-800 w-full">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#053c6d] dark:text-[#39a6cf]">
+            Especificaciones Técnicas
+          </h2>
+          <div className="max-w-3xl mx-auto">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
+              <CardContent className="p-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Material</h3>
+                      <p className="dark:text-gray-300">Acero inoxidable 304</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Capacidad</h3>
+                      <p className="dark:text-gray-300">500 ml</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Aislamiento</h3>
+                      <p className="dark:text-gray-300">
+                        Vacío de doble pared (mantiene líquidos fríos 24 hrs / calientes 12 hrs)
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Seguridad</h3>
+                      <p className="dark:text-gray-300">Libre de BPA</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Boquilla</h3>
+                      <p className="dark:text-gray-300">Ancha: 3.5 cm</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Dimensiones</h3>
+                      <p className="dark:text-gray-300">Altura: 27 cm | Diámetro: 7 cm | Peso: 300 g</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="mt-6 pt-6 border-t border-gray-200 dark:border-gray-600">
+                  <p className="dark:text-gray-300">
+                    Sin condensación ni retención de olores o sabores, lo que garantiza una experiencia de hidratación
+                    pura y limpia.
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
       {/* Beneficios */}
-      <section className="py-20 bg-gray-50 w-full">
+      <section className="py-20 bg-white dark:bg-gray-900 w-full">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#053c6d]">
-            Beneficios de la Terapia Cabina Cuántica AQ
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#053c6d] dark:text-[#39a6cf]">
+            Beneficios del Agua Estructurada
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="bg-white shadow-lg">
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
               <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1">
-                    <Check className="h-5 w-5 text-white" />
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-[#1f749c]">
-                      Reducción del Estrés
-                    </h3>
-                    <p>
-                      Disminuye significativamente los niveles de cortisol, la
-                      hormona del estrés.
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Mejora la hidratación</h3>
+                    <p className="dark:text-gray-300">Optimiza la circulación sanguínea y la absorción celular</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
+              <CardContent className="p-6">
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Disminuye la viscosidad</h3>
+                    <p className="dark:text-gray-300">
+                      Reduce la viscosidad de la sangre, mejorando el flujo sanguíneo
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-lg">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
               <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1">
-                    <Check className="h-5 w-5 text-white" />
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-[#1f749c]">
-                      Mejora del Sueño
-                    </h3>
-                    <p>
-                      Facilita un sueño más profundo y reparador, mejorando los
-                      ciclos de descanso.
-                    </p>
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Favorece la digestión</h3>
+                    <p className="dark:text-gray-300">Mejora la función pancreática y digestiva</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-lg">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
               <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1">
-                    <Check className="h-5 w-5 text-white" />
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-[#1f749c]">
-                      Mayor Claridad Mental
-                    </h3>
-                    <p>
-                      Aumenta la concentración y la capacidad de tomar
-                      decisiones con claridad.
-                    </p>
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Elimina toxinas</h3>
+                    <p className="dark:text-gray-300">Ayuda a eliminar cálculos renales y biliares</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-lg">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
               <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1">
-                    <Check className="h-5 w-5 text-white" />
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-[#1f749c]">
-                      Equilibrio Emocional
-                    </h3>
-                    <p>
-                      Promueve una respuesta más equilibrada ante situaciones
-                      estresantes.
-                    </p>
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Mejora la piel</h3>
+                    <p className="dark:text-gray-300">Beneficia el estado de la piel, poros, uñas y cabello</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-lg">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
               <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1">
-                    <Check className="h-5 w-5 text-white" />
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-[#1f749c]">
-                      Aumento de Energía
-                    </h3>
-                    <p>
-                      Incrementa los niveles de energía vital sin los efectos
-                      secundarios de los estimulantes.
-                    </p>
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Regeneración celular</h3>
+                    <p className="dark:text-gray-300">Proporciona energía y enfoque mental</p>
                   </div>
                 </div>
               </CardContent>
             </Card>
-            <Card className="bg-white shadow-lg">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg md:col-span-2">
               <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1">
-                    <Check className="h-5 w-5 text-white" />
+                <div className="flex items-start gap-3">
+                  <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                    <Check className="h-4 w-4 text-white" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2 text-[#1f749c]">
-                      Bienestar General
-                    </h3>
-                    <p>
-                      Mejora la sensación general de bienestar y calidad de
-                      vida.
-                    </p>
+                    <h3 className="font-bold text-[#1f749c] dark:text-[#39a6cf]">Estabilidad emocional</h3>
+                    <p className="dark:text-gray-300">Contribuye a la estabilidad emocional y a un sueño profundo</p>
                   </div>
                 </div>
               </CardContent>
@@ -211,93 +234,48 @@ export default function ProductoEstructurador() {
         </div>
       </section>
 
-      {/* Detalles y Reserva */}
-      <section className="py-20 bg-white w-full">
+      {/* Consideraciones */}
+      <section className="py-20 bg-gray-50 dark:bg-gray-800 w-full">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
-            <h2 className="text-3xl font-bold mb-8 text-[#053c6d]">
-              Detalles de la Sesión
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <h3 className="text-xl font-bold mb-3 text-[#1f749c]">
-                  Duración
-                </h3>
-                <p className="text-lg">4 minutos</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-3 text-[#1f749c]">
-                  Precio
-                </h3>
-                <p className="text-lg">$600 MXN por sesión</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-3 text-[#1f749c]">
-                  Frecuencia Recomendada
-                </h3>
-                <p className="text-lg">1-2 sesiones por semana</p>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-3 text-[#1f749c]">
-                  Resultados
-                </h3>
-                <p className="text-lg">Desde la primera sesión</p>
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-[#39a6cf] hover:bg-[#1f749c]">
-                Agendar sesión
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-[#1f749c] text-[#1f749c]"
-              >
-                Comprar sesión
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Otras Productos */}
-      <section className="py-20 bg-gray-50 w-full">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12 text-[#053c6d]">
-            Otros Productos que Podrían Interesarte
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#053c6d] dark:text-[#39a6cf]">
+            Consideraciones
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {productos.map((producto) => (
-              <Card key={producto.id} className="overflow-hidden transition-all duration-300 hover:shadow-lg">
-                <div className="h-48 overflow-hidden">
-                  <Image
-                    src={producto.image || "/placeholder.svg"}
-                    alt={producto.title}
-                    width={500}
-                    height={300}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-                  />
-                </div>
-                <CardHeader>
-                  <CardTitle className="text-[#1f749c]">{producto.title}</CardTitle>
-                  <CardDescription className="text-base">{producto.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-lg font-bold text-[#053c6d]">{producto.price}</p>
-                </CardContent>
-                <CardFooter>
-                  <Button className="w-23 mr-2 bg-[#054891] hover:bg-[#053c6d]">
-                    <Link href={producto.link_compra} target="_blank">Comprar en WhatsApp </Link>
-                    </Button>
-                  <Button className="w-20 bg-[#054891] hover:bg-[#053c6d]">
-                    <Link href={producto.link}>Ver más </Link>
-                    </Button>
-                </CardFooter>
-              </Card>
-            ))}
+          <div className="max-w-3xl mx-auto">
+            <Card className="bg-white dark:bg-gray-700 shadow-lg">
+              <CardContent className="p-8">
+                <ul className="space-y-4">
+                  <li className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <p className="dark:text-gray-300">No es un medicamento, tratamiento o amuleto</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <p className="dark:text-gray-300">No requiere programación, carga ni baterías</p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <p className="dark:text-gray-300">
+                      Es seguro para todos, incluidas personas con marcapasos o prótesis
+                    </p>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <div className="bg-[#39a6cf] rounded-full p-2 mt-1 flex-shrink-0">
+                      <Check className="h-4 w-4 text-white" />
+                    </div>
+                    <p className="dark:text-gray-300">No tiene contraindicaciones</p>
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
     </main>
-  );
+  )
 }

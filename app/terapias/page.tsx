@@ -15,14 +15,14 @@ const terapias = [
     id: "regenerativa",
     title: "Regenerativa – Recuperación Muscular",
     description: "Acelera la recuperación muscular y reduce la inflamación después de actividad física intensa.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Recuperacion-Muscular.webp?height=300&width=500",
     link: "/terapias/regenerativa",
   },
   {
     id: "reconexion",
     title: "Reconexión – Terapia Emocional",
     description: "Reconecta con tu equilibrio emocional y supera bloqueos energéticos.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Terapia-Emocional.webp?height=300&width=500",
     link: "/terapias/reconexion",
   },
   {
@@ -30,14 +30,14 @@ const terapias = [
     title: "Armonía – Neurodivergentes",
     description:
       "Terapia especializada para personas neurodivergentes, mejorando la concentración y reduciendo la ansiedad.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/NeuroDivirgente.webp?height=300&width=500",
     link: "/terapias/armonia",
   },
   {
     id: "sueno",
     title: "Sueño Luminoso – Mejora del sueño",
     description: "Optimiza tus ciclos de sueño y despierta con mayor energía y claridad mental.",
-    image: "/placeholder.svg?height=300&width=500",
+    image: "/Sueño-Luminoso.webp?height=300&width=500",
     link: "/terapias/sueno-luminoso",
   },
 ]
@@ -96,11 +96,11 @@ export default function TerapiasPage() {
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3 text-[#1f749c]">Precio</h3>
-                <p className="text-lg">$600 MXN por sesión</p>
+                <p className="text-lg">$500 MXN por sesión</p>
               </div>
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3 text-[#1f749c]">Duración</h3>
-                <p className="text-lg">Cada sesión tiene una duración aproximada de 10 minutos.</p>
+                <p className="text-lg">Cada sesión tiene una duración aproximada de 20 minutos.</p>
               </div>
               <div className="mb-6">
                 <h3 className="text-xl font-bold mb-3 text-[#1f749c]">Recomendaciones</h3>

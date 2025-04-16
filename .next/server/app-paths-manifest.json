@@ -1,6 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/terapias/page": "app/terapias/page.js",
+  "/terapias/regenerativa/page": "app/terapias/regenerativa/page.js",
+  "/terapias/sueno-luminoso/page": "app/terapias/sueno-luminoso/page.js",
+  "/terapias/reconexion/page": "app/terapias/reconexion/page.js",
   "/productos/page": "app/productos/page.js",
-  "/empresas/page": "app/empresas/page.js",
-  "/testimonios/page": "app/testimonios/page.js",
-  "/page": "app/page.js"
+  "/terapias/armonia/page": "app/terapias/armonia/page.js",
+  "/empresas/page": "app/empresas/page.js"
 }
