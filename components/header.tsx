@@ -51,7 +51,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <Mountain className="h-8 w-8 text-[#39a6cf] dark:text-[#39a6cf]" />
+            <img src="Logo-Kryon.webp" alt="Logo-Kryon" />
             <span className="font-bold text-xl text-[#053c6d] dark:text-white">KRYON</span>
           </Link>
 
@@ -72,7 +72,7 @@ export default function Header() {
               </Link>
             ))}
             <div className="ml-2">
-              <ModeToggle />
+              
             </div>
           </nav>
 

@@ -13,7 +13,9 @@ export const metadata = {
   title: "KRYON - Centro de Tecnología Cuántica y Bienestar",
   description:
     "Transforma tu energía, transforma tu vida con tecnología cuántica avanzada para tu bienestar físico y mental.",
-    generator: 'v0.dev'
+    icons:{
+      icon:"/favicon.ico",
+    }    
 }
 
 export default function RootLayout({
@@ -38,3 +40,4 @@ export default function RootLayout({
 
 
 import './globals.css'
+import { icons } from "lucide-react"

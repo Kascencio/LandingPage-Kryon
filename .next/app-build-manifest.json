@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/terapias/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/terapias/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,20 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/terapias/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/terapias/page.js"
-    ],
     "/productos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/productos/page.js"
-    ],
-    "/productos/pulsera-energetica/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/productos/pulsera-energetica/page.js"
     ],
     "/empresas/page": [
       "static/chunks/webpack.js",
@@ -36,30 +26,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/testimonios/page.js"
     ],
-    "/contacto/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contacto/page.js"
-    ],
-    "/nosotros/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/nosotros/page.js"
-    ],
-    "/productos/gel/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/productos/gel/page.js"
-    ],
-    "/terapias/zen/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/terapias/zen/page.js"
-    ],
-    "/terapias/regenerativa/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/terapias/regenerativa/page.js"
+      "static/chunks/app/page.js"
     ]
   }
 }

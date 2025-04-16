@@ -1,8 +1,6 @@
 {
+  "/productos/page": "app/productos/page.js",
+  "/empresas/page": "app/empresas/page.js",
   "/testimonios/page": "app/testimonios/page.js",
-  "/page": "app/page.js",
-  "/terapias/zen/page": "app/terapias/zen/page.js",
-  "/nosotros/page": "app/nosotros/page.js",
-  "/contacto/page": "app/contacto/page.js",
-  "/empresas/page": "app/empresas/page.js"
+  "/page": "app/page.js"
 }
