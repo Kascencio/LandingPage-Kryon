@@ -87,7 +87,7 @@ export default function NosotrosPage() {
             <h3 className="text-2xl font-bold mb-6 text-[#1f749c] dark:text-[#39a6cf]">
               Terapeutas en Energía Cuántica
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="space-y-8">
               <Card className="bg-white dark:bg-gray-700 shadow-lg">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-3">
@@ -104,10 +104,18 @@ export default function NosotrosPage() {
                       <h4 className="text-lg font-bold mb-1 text-[#1f749c] dark:text-[#39a6cf]">
                         Ricardo Salvador Gaytán Borgoñón
                       </h4>
-                      <p className="text-gray-600 dark:text-gray-400 mb-2">Fundador</p>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Creador de la Cabina Cuántica AQ® | Terapeuta Cuántico
+                      </p>
+                      <p className="dark:text-gray-300 mb-3">
+                        Creador y desarrollador de la Cabina Cuántica AQ®, un dispositivo innovador que combina
+                        tecnologías de vanguardia con principios energéticos ancestrales para generar bienestar físico,
+                        emocional y espiritual de forma no invasiva.
+                      </p>
                       <p className="dark:text-gray-300">
-                        Con más de 20 años de experiencia en el campo de la energía cuántica, ha dedicado su vida a
-                        investigar cómo la tecnología cuántica puede mejorar la salud humana.
+                        Como terapeuta cuántico integral, Ricardo ha dedicado su trayectoria a diseñar y aplicar métodos
+                        avanzados de armonización energética, convirtiéndose en referente dentro del ámbito de las
+                        terapias complementarias y el bienestar holístico.
                       </p>
                     </div>
                   </div>
@@ -130,9 +138,18 @@ export default function NosotrosPage() {
                       <h4 className="text-lg font-bold mb-1 text-[#1f749c] dark:text-[#39a6cf]">
                         Iván de Jesús Hernández Osorio
                       </h4>
-                      <p className="text-gray-600 dark:text-gray-400 mb-2">Terapeuta Cuántico</p>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Terapeuta Cuántico Integral y Especialista en Terapias Energéticas
+                      </p>
+                      <p className="dark:text-gray-300 mb-3">
+                        Terapeuta cuántico con amplia trayectoria en el acompañamiento terapéutico holístico,
+                        especializado en técnicas de armonización energética, regulación bioinformática y expansión del
+                        bienestar integral a nivel físico, emocional y espiritual.
+                      </p>
                       <p className="dark:text-gray-300">
-                        Especialista en terapias de equilibrio energético y aplicación de la Cabina Cuántica AQ®.
+                        Combina tecnología de punta como la Cabina Cuántica AQ®, con disciplinas ancestrales y
+                        alternativas de alta efectividad, incluyendo Terapia TuneUp, Alineación Cuántica, Radiónica y
+                        Radiestesia.
                       </p>
                     </div>
                   </div>
@@ -155,9 +172,18 @@ export default function NosotrosPage() {
                       <h4 className="text-lg font-bold mb-1 text-[#1f749c] dark:text-[#39a6cf]">
                         Nadia Isabel Zavaleta Cruz
                       </h4>
-                      <p className="text-gray-600 dark:text-gray-400 mb-2">Terapeuta Cuántico</p>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Terapeuta Cuántica en Bienestar Integral y Armonización Energética
+                      </p>
+                      <p className="dark:text-gray-300 mb-3">
+                        Terapeuta cuántica enfocada en el acompañamiento integral del ser humano, con una visión
+                        compasiva, sensible y profundamente conectada con el propósito de ayudar a restaurar la armonía
+                        física, emocional y energética.
+                      </p>
                       <p className="dark:text-gray-300">
-                        Experta en terapias a distancia y aplicación de técnicas de armonización energética.
+                        Se distingue por su presencia cálida, su atención personalizada y su habilidad para generar
+                        espacios seguros en los que cada persona puede reconectar consigo misma, liberar bloqueos y
+                        reactivar su fuerza interior.
                       </p>
                     </div>
                   </div>
@@ -180,9 +206,18 @@ export default function NosotrosPage() {
                       <h4 className="text-lg font-bold mb-1 text-[#1f749c] dark:text-[#39a6cf]">
                         Kevin Eduardo Ascencio de la Flor
                       </h4>
-                      <p className="text-gray-600 dark:text-gray-400 mb-2">Terapeuta Cuántico</p>
+                      <p className="text-gray-600 dark:text-gray-400 mb-2">
+                        Terapeuta Cuántico y Facilitador de Procesos de Bienestar Integral
+                      </p>
+                      <p className="dark:text-gray-300 mb-3">
+                        Terapeuta cuántico comprometido con el equilibrio y la transformación del ser humano a través de
+                        herramientas vibracionales de alta frecuencia. Su enfoque combina la sensibilidad terapéutica
+                        con el uso de tecnología cuántica avanzada.
+                      </p>
                       <p className="dark:text-gray-300">
-                        Especializado en Tune Up y aplicación de productos cuánticos para el bienestar integral.
+                        Se distingue por su presencia empática, su escucha activa y su capacidad para guiar al usuario
+                        en un proceso terapéutico respetuoso, consciente y restaurador, orientado a reconectar con la
+                        vitalidad, claridad y fuerza interna.
                       </p>
                     </div>
                   </div>

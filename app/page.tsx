@@ -340,7 +340,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/Terapias-Kryon.webp?height=200&width=400"
                     alt="Terapias cuánticas"
                     width={400}
                     height={200}
@@ -370,7 +370,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/Productos-Kryon.webp?height=200&width=400"
                     alt="Productos cuánticos"
                     width={400}
                     height={200}
@@ -400,7 +400,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent>
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="/Empresas-Kryon.webp?height=400&width=400"
                     alt="Soluciones para empresas"
                     width={400}
                     height={200}

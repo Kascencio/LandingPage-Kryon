@@ -42,7 +42,11 @@ export default function HidroGelAQPage() {
               </p>
               <div className="flex items-center mb-6">
                 <span className="text-2xl font-bold text-[#053c6d] dark:text-white mr-4">$500 MXN</span>
-                <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">Comprar con PayPal</Button>
+                <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">
+                  <Link href="https://wa.me/529937548276?text=%C2%A1Hola%20Kryon!%20Me%20gustar%C3%ADa%20adquirir%20el%20Gel%20Cu%C3%A1ntico." target="_blank">
+                  Comprar ahora
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
