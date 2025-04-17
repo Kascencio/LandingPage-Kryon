@@ -78,7 +78,6 @@ export default function Header() {
 
           {/* Mobile Navigation Toggle */}
           <div className="flex items-center md:hidden space-x-2">
-            <ModeToggle />
             <Button variant="ghost" size="icon" onClick={toggleMenu} aria-label="Toggle Menu">
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
