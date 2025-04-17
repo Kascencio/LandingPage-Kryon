@@ -29,13 +29,6 @@ export const metadata = {
       },
     ],
   },
-  twitter: {
-    card: "summary_large_image",
-    site: "@kryoncenter", // Añadir usuario Twitter si existe
-    title: "KRYON - Centro de Tecnología Cuántica y Bienestar",
-    description: "Transforma tu energía, transforma tu vida con tecnología cuántica avanzada para tu bienestar físico y mental.",
-    images: "https://www.kryoncenter.com/Kryon-meta.webp", // Misma imagen que OpenGraph
-  },
 };
 
 export default function RootLayout({
