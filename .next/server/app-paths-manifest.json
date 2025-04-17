@@ -1,7 +1,3 @@
 {
-  "/testimonios/page": "app/testimonios/page.js",
-  "/page": "app/page.js",
-  "/productos/page": "app/productos/page.js",
-  "/productos/stickers/page": "app/productos/stickers/page.js",
-  "/nosotros/page": "app/nosotros/page.js"
+  "/page": "app/page.js"
 }
