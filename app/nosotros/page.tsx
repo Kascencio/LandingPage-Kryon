@@ -1,5 +1,7 @@
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 export default function NosotrosPage() {
   return (
@@ -117,6 +119,11 @@ export default function NosotrosPage() {
                         avanzados de armonización energética, convirtiéndose en referente dentro del ámbito de las
                         terapias complementarias y el bienestar holístico.
                       </p>
+                      <div className="mt-4">
+                        <Link href="/nosotros/ricardo-gaytan">
+                          <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">Saber más</Button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -151,6 +158,11 @@ export default function NosotrosPage() {
                         alternativas de alta efectividad, incluyendo Terapia TuneUp, Alineación Cuántica, Radiónica y
                         Radiestesia.
                       </p>
+                      <div className="mt-4">
+                        <Link href="/nosotros/ivan-hernandez">
+                          <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">Saber más</Button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -185,6 +197,11 @@ export default function NosotrosPage() {
                         espacios seguros en los que cada persona puede reconectar consigo misma, liberar bloqueos y
                         reactivar su fuerza interior.
                       </p>
+                      <div className="mt-4">
+                        <Link href="/nosotros/nadia-zavaleta">
+                          <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">Saber más</Button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </CardContent>
@@ -219,6 +236,11 @@ export default function NosotrosPage() {
                         en un proceso terapéutico respetuoso, consciente y restaurador, orientado a reconectar con la
                         vitalidad, claridad y fuerza interna.
                       </p>
+                      <div className="mt-4">
+                        <Link href="/nosotros/kevin-ascencio">
+                          <Button className="bg-[#39a6cf] hover:bg-[#1f749c]">Saber más</Button>
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </CardContent>

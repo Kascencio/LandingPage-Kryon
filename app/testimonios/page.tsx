@@ -53,7 +53,7 @@ const testimoniosEmpresas = [
     representative: "Departamento de Recursos Humanos",
     content:
       "La implementación de las Cabinas AQ en nuestras instalaciones ha tenido un impacto positivo en el bienestar de nuestros empleados. Hemos visto una reducción significativa en los niveles de estrés reportados.",
-    logo: "/placeholder.svg?height=100&width=100",
+    logo: "/Pemex-Logo.png?height=100&width=100",
     video: true,
   },
   {
@@ -62,7 +62,7 @@ const testimoniosEmpresas = [
     representative: "Facultad de Psicología",
     content:
       "Nuestra colaboración con el Centro KRYON ha sido muy valiosa para nuestra investigación sobre el impacto de la tecnología cuántica en el bienestar estudiantil. Los resultados han sido muy prometedores.",
-    logo: "/placeholder.svg?height=100&width=100",
+    logo: "/UAT.jpg?height=100&width=100",
     video: false,
   },
 ]
@@ -166,35 +166,6 @@ export default function TestimoniosPage() {
                     <div className="md:col-span-3 p-6">
                       <h3 className="text-xl font-bold mb-1 text-[#1f749c]">{testimonio.company}</h3>
                       <p className="text-gray-600 mb-4">{testimonio.representative}</p>
-                      {testimonio.video ? (
-                        <div className="relative aspect-video mb-4 rounded-lg overflow-hidden">
-                          <div className="absolute inset-0 flex items-center justify-center bg-[#053c6d]/10">
-                            <Button size="sm" className="rounded-full w-12 h-12 flex items-center justify-center">
-                              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-                                />
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                />
-                              </svg>
-                            </Button>
-                          </div>
-                          <Image
-                            src="/placeholder.svg?height=200&width=400"
-                            alt={`Video testimonio de ${testimonio.company}`}
-                            width={400}
-                            height={200}
-                            className="w-full h-full object-cover"
-                          />
-                        </div>
-                      ) : null}
                       <p className="italic">{testimonio.content}</p>
                     </div>
                   </div>
