@@ -1,1 +1,32 @@
-{}
+{
+  "app\\cabina\\page.tsx -> @/components/cabina": {
+    "id": 887,
+    "files": [
+      "static/chunks/479f18de.b6a59550c5329c5c.js",
+      "static/chunks/01826c6a.7acf01beb9a0cee3.js",
+      "static/chunks/91c6c604.d6223c53f38c5765.js",
+      "static/chunks/227.1352189d91944d6d.js",
+      "static/chunks/887.99461f81a8d9caca.js"
+    ]
+  },
+  "node_modules\\.pnpm\\@react-three+drei@10.0.6_@r_8762040075148b8849d2221aad31ac02\\node_modules\\@react-three\\drei\\core\\VideoTexture.js -> hls.js": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\.pnpm\\@react-three+drei@10.0.6_@r_8762040075148b8849d2221aad31ac02\\node_modules\\@react-three\\drei\\web\\FaceLandmarker.js -> @mediapipe/tasks-vision": {
+    "id": null,
+    "files": []
+  },
+  "node_modules\\.pnpm\\next@15.3.1_react-dom@19.1.0_react@19.1.0__react@19.1.0\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 1412,
+    "files": [
+      "static/chunks/412.ecee15d245e22ef8.js"
+    ]
+  },
+  "node_modules\\.pnpm\\next@15.3.1_react-dom@19.1.0_react@19.1.0__react@19.1.0\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 8441,
+    "files": [
+      "static/chunks/441.30fe80b65ad1be69.js"
+    ]
+  }
+}
