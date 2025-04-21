@@ -1,4 +1,4 @@
-// File: C:\Users\ke113\Downloads\KRYON\kryon-website\frontend\app\page.tsx
+// File: C:\Users\ke113\Downloads\KRYON\kryon-website\LandingPage-Kryon\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

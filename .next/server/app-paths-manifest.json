@@ -1,27 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/cabina/page": "app/cabina/page.js",
-  "/contacto/page": "app/contacto/page.js",
-  "/empresas/page": "app/empresas/page.js",
-  "/nosotros/nadia-zavaleta/page": "app/nosotros/nadia-zavaleta/page.js",
-  "/nosotros/page": "app/nosotros/page.js",
-  "/nosotros/ricardo-gaytan/page": "app/nosotros/ricardo-gaytan/page.js",
-  "/nosotros/ivan-hernandez/page": "app/nosotros/ivan-hernandez/page.js",
-  "/productos/gel/page": "app/productos/gel/page.js",
-  "/nosotros/kevin-ascencio/page": "app/nosotros/kevin-ascencio/page.js",
-  "/page": "app/page.js",
-  "/productos/estructurador/page": "app/productos/estructurador/page.js",
-  "/productos/page": "app/productos/page.js",
-  "/productos/personalizado/page": "app/productos/personalizado/page.js",
-  "/productos/pulsera-energetica/page": "app/productos/pulsera-energetica/page.js",
-  "/terapias/page": "app/terapias/page.js",
-  "/productos/stickers/page": "app/productos/stickers/page.js",
-  "/terapias/armonia/page": "app/terapias/armonia/page.js",
-  "/terapias/regenerativa/page": "app/terapias/regenerativa/page.js",
-  "/terapias/sueno-luminoso/page": "app/terapias/sueno-luminoso/page.js",
-  "/terapias/reconexion/page": "app/terapias/reconexion/page.js",
-  "/terapias/zen/page": "app/terapias/zen/page.js",
-  "/tienda/page": "app/tienda/page.js",
-  "/testimonios/page": "app/testimonios/page.js"
+  "/page": "app/page.js"
 }

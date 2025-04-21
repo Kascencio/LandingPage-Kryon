@@ -44,7 +44,8 @@ export default function Home() {
       location: "Ciudad de México",
       content:
         "Después de mis entrenamientos, la terapia Regenerativa me ayuda a recuperarme mucho más rápido. ¡Es increíble la diferencia!",
-      avatar: "/Carlos-Rodriguez-Deportista-Testimonio.webp?height=100&width=100",
+      avatar:
+        "/Carlos-Rodriguez-Deportista-Testimonio.webp?height=100&width=100",
       rating: 5,
     },
     {
@@ -175,7 +176,6 @@ export default function Home() {
               >
                 <a href="/productos">Conoce nuestros productos</a>
               </Button>
-              
             </motion.div>
           </motion.div>
           <motion.div
@@ -202,17 +202,14 @@ export default function Home() {
               Descubre la Cabina Cuántica AQ®
             </h2>
             <div className="relative aspect-video max-w-4xl mx-auto rounded-xl overflow-hidden shadow-xl">
-              <div className="">
+              <div className="w-full h-full">
                 <iframe
-                  width="100%"
-                  height="100%"
-                  style={{ aspectRatio: "16/9" }}
-                  src="https://www.youtube.com/embed/9ezWC2tfgQk?si=YT98mzHKYZGjQEM9&amp;controls=0"
-                  title="YouTube video player"
+                  src="https://player.vimeo.com/video/1076962528?h=3c7c45753f&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                  className="w-full h-full" 
+                  aspect-ratio="16:9"
                   frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                  title="Cabina Cuantica KRYON"
                 ></iframe>
               </div>
             </div>
